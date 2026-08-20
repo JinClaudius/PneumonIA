@@ -112,7 +112,17 @@ source .venv/bin/activate        # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-Dataset: [SOURCE + LICENCE À COMPLÉTER — probablement Kermany et al., chest X-ray, sur Kaggle].
+## Dataset
+
+Kermany, D., Zhang, K., Goldbaum, M. (2018). *Labeled Optical Coherence Tomography (OCT)
+and Chest X-Ray Images for Classification*, Mendeley Data, V2.
+DOI: [10.17632/rscbjbr9sj.2](https://doi.org/10.17632/rscbjbr9sj.2) — **CC BY 4.0**
+
+Also mirrored on [Kaggle](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia).
+Pediatric chest radiographs (ages 1–5), Guangzhou Women and Children's Medical Center.
+The `PNEUMONIA` folder was split into `BACTERIAL` and `VIRAL` using the filename labels.
+The dataset is not versioned in this repository.
+
 Expected layout:
 
 ```
